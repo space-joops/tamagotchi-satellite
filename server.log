@@ -1,0 +1,13 @@
+
+> satellite-game@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+✓ Ready in 924ms
+✓ Running next.config.ts took 79ms
+
+ GET / 200 in 2.7s (next.js: 2.5s, application-code: 224ms)
+ GET / 200 in 66ms (next.js: 11ms, application-code: 55ms)
+[?25h
