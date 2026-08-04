@@ -9,7 +9,7 @@ export default function SatelliteGame() {
   const [energy, setEnergy] = useState(100);
   const [durability, setDurability] = useState(100);
   const [dataCollected, setDataCollected] = useState(0);
-  const [isAlive, setIsAlive] = useState(true);
+  const isAlive = energy > 0 && durability > 0;
 
   // Actions
   const chargeSolar = () => {
@@ -142,17 +142,10 @@ export default function SatelliteGame() {
     };
   }, [isAlive]);
 
-  useEffect(() => {
-    if (energy <= 0 || durability <= 0) {
-      setIsAlive(false);
-    }
-  }, [energy, durability]);
-
   const resetGame = () => {
     setEnergy(100);
     setDurability(100);
     setDataCollected(0);
-    setIsAlive(true);
   }
 
   return (
