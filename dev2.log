@@ -1,0 +1,14 @@
+
+> satellite-game@0.1.0 dev
+> next dev --webpack
+
+▲ Next.js 16.3.0 (webpack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+✓ Ready in 561ms
+✓ Running next.config.ts took 961ms
+> [PWA] PWA support is disabled
+> [PWA] PWA support is disabled
+
+○ Compiling / ...
+ GET / 200 in 8.4s (next.js: 8.0s, application-code: 377ms)
